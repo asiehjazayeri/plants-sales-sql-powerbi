@@ -1,4 +1,3 @@
-
 # Plants Sales — SQL Data Preparation & Power BI
 
 SQL Server project for cleaning, validating, transforming, and preparing sales data for Power BI analysis.
@@ -21,7 +20,7 @@ The following SQL operations were performed:
 - Validated relationships between related tables.
 - Joined Sales with Products, Customers, Sellers, and Shipping.
 - Created SQL Views for cleaned and analysis-ready data.
-- Performed basic sales analysis using `SUM`, `AVG`, `COUNT`, `GROUP BY`, and `ORDER BY`.
+- Performed sales analysis using `SUM`, `AVG`, `COUNT`, `GROUP BY`, and `ORDER BY`.
 
 ## SQL Views
 
@@ -32,7 +31,33 @@ Two main views were created:
 
 ## Power BI
 
-The final SQL View was connected to Power BI and used to create DAX measures and dashboard analysis.
+The SQL-prepared dataset was connected to Power BI and used for DAX measures and dashboard analysis.
+
+## Project Screenshots
+
+### Database Structure
+
+![Database Structure](Screenshots/01_Database_Structure.png)
+
+### Data Quality Check
+
+![Data Quality Check](Screenshots/02_Data_Quality_Check.png)
+
+### Clean Sales View
+
+![Sales Clean View](Screenshots/03_Sales_Clean_View.png)
+
+### Sales by Category
+
+![Sales by Category](Screenshots/04_Sales_by_Category.png)
+
+### Sales Analytics View
+
+![Sales Analytics View](Screenshots/05_Sales_Analytics_View.png)
+
+### Power BI Executive Overview
+
+![Power BI Executive Overview](Screenshots/06_PowerBI_Executive_Overview.png)
 
 ## Tools
 

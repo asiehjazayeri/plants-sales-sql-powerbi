@@ -29,6 +29,14 @@ Two main views were created:
 - `vw_Sales_Clean` — cleans and standardizes the Sales data.
 - `vw_Sales_Analytics` — combines Sales with related dimension tables for analysis.
 
+## Key Results
+
+- Processed and validated 50,000 sales records.
+- Verified product, customer, seller, and shipping relationships.
+- Created reusable SQL Views for data preparation and analysis.
+- Performed sales analysis by year, category, province, product, and seller.
+- Connected the SQL-prepared dataset to Power BI for reporting and visualization.
+
 ## Power BI
 
 The SQL-prepared dataset was connected to Power BI and used for DAX measures and dashboard analysis.
@@ -58,6 +66,13 @@ The SQL-prepared dataset was connected to Power BI and used for DAX measures and
 ### Power BI Executive Overview
 
 ![Power BI Executive Overview](Screenshots/06_PowerBI_Executive_Overview.png)
+
+## SQL Files
+
+- [Data Quality Checks](SQL/01_Data_Quality_Checks.sql)
+- [Sales Clean View](SQL/02_Sales_Clean_View.sql)
+- [Sales Analytics View](SQL/03_Sales_Analytics_View.sql)
+- [Analysis Queries](SQL/04_Analysis_Queries.sql)
 
 ## Tools
 
